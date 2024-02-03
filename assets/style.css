@@ -1,0 +1,73 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#body {
+    background-color:#29A67C;
+    border-color:black;
+    border-top: solid 2px;
+    border-bottom: solid 10px;
+    margin: 0px;
+}  
+#header {
+    background-color: inherit;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    width:100%;
+    padding: 15px;
+}
+
+.header-links {
+    display:inline;
+    text-align: right;
+    padding: 10px 10px;
+    color: inherit;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+a:hover {
+    background-color: rgb(223, 195, 93);
+}
+#main-section {
+    border-width: 60px 0px 3px 0px;
+    border-color: rgb(71, 120, 157);
+    border-style: solid;
+    background-color: rgb(129, 163, 185);
+    text-align:center;
+}
+#thumbs-up {
+    width: 400px;
+    height: 400px;
+}
+
+#contact-section {
+    position:relative;
+    text-align:center;
+    width: auto;
+}
+
+fieldset {
+    margin: 5px auto;
+    width: fit-content;
+    text-align: center;
+    border-radius: 15px;
+    border-color: red;
+    position:relative;
+    
+    padding: 5px 20px;
+}
+footer {
+    width:fit-content;
+    position:relative;
+    text-align: center;
+    display: block;
+    background-color: rgb(223, 195, 93);
+    margin: auto;
+    border-color:#2b8467;
+    border-width:2px;
+    border-radius: 90px;
+    padding: 0px 150px;
+}
+.label {
+    display:block;
+}
